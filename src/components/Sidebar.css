@@ -1,0 +1,142 @@
+/* src/components/Sidebar.css */
+* {
+
+    margin: 0;  /* Reset margin for all elements */
+    padding: 0; /* Reset padding for all elements */
+    box-sizing: border-box; /* Consistent box-sizing */
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+
+.sidebar h2{
+    font-size: 25px;
+    text-align: center;
+    margin-left: -10px;
+}
+.logo {
+   /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin-bottom: 20px; /* Space below the logo */
+    text-align: center; /* Center text (optional) */
+}
+
+
+.logo-image {
+    width: 150px; /* Set a width for your logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo and name */
+}
+
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.sidebar-menu li {
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.sidebar-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-menu li:hover {
+    background-color: #3a3f47;
+}
+
+/* src/components/Sidebar.css */
+
+.container {
+    margin-left: 250px; /* Adjust to the width of the sidebar */
+    padding: 20px; /* Add some padding for content */
+    background-color: darkslategray; /* Match the background color */
+    height: 100vh; /* Full viewport height */
+    width: calc(100% - 250px); /* Full width minus the sidebar */
+}
+
+
+
+/* src/components/Sidebar.css */
+
+/* Existing styles remain unchanged... */
+
+.scrollable-content h4{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.scrollable-content p{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+
+.personal-details-table {
+    width: 100%; /* Make the table full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 10px; /* Space above the table */
+}
+
+.personal-details-table td {
+    padding: 10px; /* Space inside table cells */
+    border: 1px solid #ddd; /* Light border for cells */
+}
+
+.heading-col{
+    background-color: #3a3f47;
+}
+
+.personal-details-table td:first-child {
+    font-weight: bold; /* Bold for the first column */ /* Light background for the first column */
+}
+
+
+
+.scrollable-content {/* Adjust based on your sticky title height */
+    overflow-y: scroll; /* Allow vertical scrolling */
+    padding: 10px;
+  
+    height: 610px;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+}
+
+
+/* For WebKit browsers (Chrome, Safari) */
+.scrollable-content::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+    background: transparent; /* Optional: to make background transparent */
+}
+
+
+
+/* contact details*/
+
+h6{
+    margin-top: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+.contact-details {
+    margin-top: 10px; /* Automatically adjusts to push it down */
+    display: flex;
+    /* Distributes space evenly between icons */
+}
+
+.contact-link {
+    color: white; /* Ensure the links are visible */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 10px; /* Add some space between links */
+}
