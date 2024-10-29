@@ -47,8 +47,8 @@ export class ResumeComponent implements OnInit {
   downloadResume() {
     const link = document.createElement('a');
     link.setAttribute('target', '_blank');
-    link.setAttribute('href', 'https://drive.google.com/file/d/1wm6fqaSqbQIn60ZlIN9_hLIV0tBFhECD/view?usp=sharing');
-    link.setAttribute('download', `Krishan Kumar Pareek.pdf`);
+    link.setAttribute('href', 'link for resume');
+    link.setAttribute('download', ``);
     document.body.appendChild(link);
     link.click();
     link.remove();

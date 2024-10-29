@@ -13,6 +13,6 @@ export class ContactPageComponent implements OnInit {
   }
 
   openEmail() {
-    window.open("mailto:k.k.pareek18@gmail.com", '_blank');
+    window.open("aryanjamatia9862@gmail.com", '_blank');
   }
 }
