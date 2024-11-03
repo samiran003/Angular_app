@@ -11,7 +11,7 @@ const Profile = () => {
             <div className="scrollable-content">
     <h4>Summary</h4>
     <p>
-        Hi, I’m Aryan Jamatia, and I’m currently pursuing a Bachelor of Computer Applications (BCA) with a focus on Data Science at Assam Down Town University in Guwahati. As a second-year student, I have developed a solid foundation in web development, including proficiency in technologies like React.js, Java, Django and PHP, as well as experience in MySQL for database management. I’m actively working on a railway reservation system project that features user authentication, real-time ticket availability, and a responsive web interface. Additionally, I’m developing a personal React application to showcase my achievements and academic details. I’m eager to expand my programming skills and explore opportunities in data science and machine learning, all while contributing to innovative projects.
+        Hi, I’m Samiran Barman, and I’m currently pursuing a Bachelor of Computer Applications (BCA) with a focus on Data Science at Assam Down Town University in Guwahati. As a second-year student, I have developed a solid foundation in web development, including proficiency in technologies like React.js, Java, Django and PHP, as well as experience in MySQL for database management. I’m actively working on a railway reservation system project that features user authentication, real-time ticket availability, and a responsive web interface. Additionally, I’m developing a personal React application to showcase my achievements and academic details. I’m eager to expand my programming skills and explore opportunities in data science and machine learning, all while contributing to innovative projects.
     </p>
     <h4>Personal Details</h4>
     
@@ -19,23 +19,23 @@ const Profile = () => {
         <tbody>
             <tr>
                 <td>Name</td>
-                <td>Aryan Jamatia</td>
+                <td>Samiran Barman</td>
             </tr>
             <tr>
                 <td>Date of Birth</td>
-                <td>01-09-2005</td>
+                <td>23-10-2004</td>
             </tr>
             <tr>
                 <td>Father's Name</td>
-                <td>Kaithar Jamatia</td>
+                <td>Dwipen Barman</td>
             </tr>
             <tr>
                 <td>Mother's Name</td>
-                <td>Chhaya Jamatia</td>
+                <td>Gita Barman</td>
             </tr>
             <tr>
                 <td>Address</td>
-                <td>Narangi, Guwahati, Assam 781026</td>
+                <td>Birkhuchi, Guwahati, Assam 781026</td>
             </tr>
         </tbody>
     </table>

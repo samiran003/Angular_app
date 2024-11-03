@@ -18,12 +18,12 @@ const AcademicDetails = () => {
         </tr>
         <tr>
             <td>10th</td>
-            <td>Kendriya Vidyalaya Rangapahar Dimapur</td>
+            <td>Sankardev Vidya Niketan, Tamulpur</td>
             <td>2021</td>
         </tr>
         <tr>
             <td>12th</td>
-            <td>Kendriya Vidyalaya Rangapahar Dimapur</td>
+            <td>Tamulpur H/S School, Tamulpur</td>
             <td>2023</td>
         </tr>
         <tr>

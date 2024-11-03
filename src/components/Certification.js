@@ -20,11 +20,7 @@ const Certification = () => {
             <td>Problem Solving(Basic)</td>
             <td>100%</td>
         </tr>
-        <tr>
-            <td>Hacker Rank</td>
-            <td>SQL(Intermediate)</td>
-            <td>100%</td>
-        </tr>
+       
         <tr>
             <td>Coursera</td>
             <td>Google Digital Marketing & E-commerce Professional Certificate</td>

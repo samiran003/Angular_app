@@ -12,7 +12,7 @@ const Sidebar = () => {
         <div className="sidebar">
             <div className="logo">
             <img src={logo} alt="Logo" className="logo-image" /> {/* Use the imported logo */}
-            <h2>Aryan Jamatia</h2>
+            <h2>Samiran Barman</h2>
         </div>
 
             
@@ -24,13 +24,13 @@ const Sidebar = () => {
             <h6>Contact</h6>
             <div className="contact-details">
                 
-                <a href="mailto:aryanjamatia9862@gmail.com" className="contact-link">
+                <a href="mailto:samiran3737@gmail.com" className="contact-link">
                     <FontAwesomeIcon icon={faEnvelope} />
                 </a>
-                <a href="https://www.linkedin.com/in/aryan-jamatia-540017287/" className="contact-link">
+                <a href="https://www.linkedin.com/in/samiran-barman/" className="contact-link">
                     <FontAwesomeIcon icon={faLinkedin} /> 
                 </a>
-                <a href="https://github.com/aryanjamatia" className="contact-link">
+                <a href="https://github.com/samiranbarman" className="contact-link">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a href="https://www.instagram.com/ary_anjm?igsh=MWdxODQ1eG52bHgyMQ==" className="contact-link">
